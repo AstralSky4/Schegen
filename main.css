@@ -1,0 +1,39 @@
+/* Page styles */
+
+
+/* Selected courses */
+
+.remove-course-btn {
+  font-size: 1.5rem;
+}
+
+
+/* Table */
+
+.schedule-table .table {
+  max-width: 350px;
+}
+
+.schedule-table tbody th {
+  font-size: 10px;
+  padding: 0.1rem;
+}
+
+.schedule-table .thead-dark th {
+  background-color: #202020 !important;
+}
+
+.schedule-table th,
+.schedule-table td {
+  padding: 0;
+  margin: 0;
+  width: 16.66%;
+}
+
+/* Legend */
+
+.option-details ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}

@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  
+  <head>
+
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1"/>
+    
+    <title>Schegen</title>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Comfortaa|Montserrat" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="main.css" type="text/css" rel="stylesheet">
+    <link href="home/images/sofa.png" type="image/png" rel="icon">
+
+  </head>
+  
+  
+  <body>
+    
+    <header>
+      <h2 class="h2 p-3">Schegen</h2>
+    </header>
+
+    <main class="container-fluid p-0 mx-auto" id="mainContent">
+      
+      <section class="input-container container py-5">
+        <div class="container-fluid">
+          <div class="input-group mx-auto" style="max-width: 300px">
+            <input type="text" id="course-id-input" class="form-control" placeholder="Course id" aria-label="Course id" aria-describedby="add-course">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary" type="button" id="add-course">Add</button>
+            </div>
+          </div>
+        </div>
+      </section>
+      
+      <section id="all-courses-container" class="selected-courses-container container p-5 d-none">
+        
+        <h3 class="h3 pb-5">Selected courses</h3>
+        
+        <!-- Generated courses (from search) -->
+        
+      </section>
+      
+      <div class="container text-center py-5">
+        <button id="generate-schedules" class="btn btn-outline-secondary" type="button">Generate...</button>
+      </div>
+      
+      <section id="all-options-container" class="container p-5 d-none">
+        
+        <!-- Generated schedules -->
+        
+      </section>
+      
+    </main>
+    
+    
+<!--     <footer class="container-fluid" id="mainFooter">
+      <p class="h6 p-5 m-0 d-inline-block">&copy;&nbsp;CodeSofa 2018. All rights reserved.</p>
+    </footer> -->
+
+    
+    <!-- Scripts -->
+    
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="main.js"></script>
+    
+  </body>
+  
+</html>
